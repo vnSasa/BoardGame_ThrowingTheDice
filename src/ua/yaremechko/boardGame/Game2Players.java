@@ -42,7 +42,6 @@ public class Game2Players {
 			if (step2Players.getRoadPlayerOne().length() >= game) {
 				System.out.println();
 				System.out.println("PLAYER " + namePlayer.toUpperCase() + " WIN!!!");
-				step2Players.resultGame();
 
 				b = false;
 
@@ -61,7 +60,6 @@ public class Game2Players {
 				if (step2Players.getRoadPlayerTwo().length() >= game) {
 					System.out.println();
 					System.out.println("PLAYER " + namePlayerTwo.toUpperCase() + " WIN!!!");
-					step2Players.resultGame();
 
 					b = false;
 
