@@ -46,7 +46,6 @@ public class Game3Players {
 			if (step3Players.getRoadPlayerOne().length() >= game) {
 				System.out.println();
 				System.out.println("PLAYER " + namePlayer.toUpperCase() + " WIN!!!");
-				step3Players.resultGame();
 
 				b = false;
 
@@ -66,7 +65,6 @@ public class Game3Players {
 				if (step3Players.getRoadPlayerTwo().length() >= game) {
 					System.out.println();
 					System.out.println("PLAYER " + namePlayerTwo.toUpperCase() + " WIN!!!");
-					step3Players.resultGame();
 
 					b = false;
 
@@ -86,7 +84,6 @@ public class Game3Players {
 					if (step3Players.getRoadPlayerThree().length() >= game) {
 						System.out.println();
 						System.out.println("PLAYER " + namePlayerThree.toUpperCase() + " WIN!!!");
-						step3Players.resultGame();
 
 						b = false;
 
